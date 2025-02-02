@@ -1,0 +1,82 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdfdfd; /* Warna latar belakang cream muda */
+    color: #333;
+}
+
+header {
+    background-color: #f8d2ab; /* Warna serasi dengan latar belakang cream */
+    padding: 1px 0; /* Sedikit menambah padding untuk kenyamanan visual */
+}
+
+.navbar {
+    display: flex;
+    justify-content: center; /* Navbar di tengah */
+    align-items: center; /* Align items vertically */
+    padding: 10px 0; /* Menambah jarak vertikal pada navbar */
+    background-color: #f8d2ab; /* Warna serasi dengan latar belakang cream */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan */
+    position: relative;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 15px; /* Menambah jarak antar elemen navbar */
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333; /* Warna teks navbar agar terlihat elegan */
+    font-weight: 500; /* Font weight antara light dan bold */
+    font-size: 22px; /* Memperbesar ukuran font navbar */
+    transition: color 0.3s ease; /* Menambahkan efek transisi */
+}
+
+.navbar a:hover, .navbar a.active {
+    color: #8d603e; /* Warna teks saat hover atau active */
+}
+
+.logo {
+    position: absolute;
+    left: 15px; /* Menempatkan logo di sisi kiri */
+}
+
+.logo a {
+    font-family: 'Great Vibes', cursive; /* Menggunakan font Great Vibes */
+    color: #8d603e; /* Warna logo agar terlihat menarik */
+    font-size: 42px; /* Ukuran font untuk logo */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Menambahkan bayangan teks */
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+video {
+    margin-top: 20px;
+    width: 80%;
+    max-width: 600px;
+    border: 2px solid #d4a373; /* Bingkai video dengan warna serasi */
+}
+
+footer {
+    background-color: #f8d2ab; /* Warna serasi dengan latar belakang cream */
+    text-align: center;
+    padding: 5px 0; /* Memperkecil footer lebih lagi */
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    font-size: 0.8em; /* Mengurangi ukuran font footer */
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan */
+}

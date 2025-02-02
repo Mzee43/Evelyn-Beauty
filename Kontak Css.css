@@ -1,0 +1,125 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdfdfd; /* Warna latar belakang cream muda */
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #f8d2ab; /* Warna serasi dengan latar belakang cream */
+    padding: 1px 0; /* Sedikit menambah padding untuk kenyamanan visual */
+}
+
+.navbar {
+    display: flex;
+    justify-content: center; /* Navbar di tengah */
+    padding: 10px 0; /* Menambah jarak vertikal pada navbar */
+    background-color: #f8d2ab; /* Warna serasi dengan latar belakang cream */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan */
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 15px; /* Menambah jarak antar elemen navbar */
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333; /* Warna teks navbar agar terlihat elegan */
+    font-weight: 500; /* Font weight antara light dan bold */
+    font-size: 22px; /* Memperbesar ukuran font navbar */
+    transition: color 0.3s ease; /* Menambahkan efek transisi */
+}
+
+.navbar a:hover, .navbar a.active {
+    color: #8d603e; /* Warna teks saat hover atau active */
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.content-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Menambahkan box shadow */
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center; /* Mengatur teks agar sejajar di tengah */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin: 10px 0 5px 0;
+}
+
+input, textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #d4a373;
+    border-radius: 5px;
+    box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #d4a373;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Menambahkan efek transisi */
+}
+
+button:hover {
+    background-color: #b3835f; /* Warna tombol saat hover */
+}
+
+.kontak-info {
+    margin-top: 20px;
+}
+
+.sosial-media a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.sosial-media img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.sosial-media img:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: #f8d2ab; /* Warna serasi dengan latar belakang cream */
+    text-align: center;
+    padding: 5px 0; /* Memperkecil footer lebih lagi */
+    width: 100%;
+    font-size: 0.8em; /* Mengurangi ukuran font footer */
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan */
+    margin-top: auto; /* Menjaga footer di bagian bawah halaman */
+}
